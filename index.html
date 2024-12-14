@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Mood Music</title>
+  <link rel="stylesheet" href="Styles_Sporify/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Spotify Mood Music</h1>
+      <button id="login-btn" class="btn-login">Login with Spotify</button>
+    </header>
+
+    <main>
+      <div class="mood-selector">
+        <label for="mood-select">Choose your mood:</label>
+        <select id="mood-select">
+          <option value="happy">Happy</option>
+          <option value="sad">Sad</option>
+          <option value="relaxed">Relaxed</option>
+          <option value="energetic">Energetic</option>
+        </select>
+        <button id="show-songs-btn" class="btn-show-songs">Show Songs</button>
+      </div>
+      <div id="songs-container" class="songs-container">
+        <!-- เพลงที่แนะนำจะแสดงที่นี่ -->
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
